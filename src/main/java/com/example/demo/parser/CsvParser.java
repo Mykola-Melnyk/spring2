@@ -1,7 +1,9 @@
 package com.example.demo.parser;
 
 import com.example.demo.dto.NumberDto;
+import org.springframework.stereotype.Component;
 
+//@Component
 public class CsvParser implements Parser{
     @Override
     public NumberDto parse(String line) {

@@ -6,7 +6,9 @@ import com.example.demo.parser.Parser;
 import com.example.demo.printer.ConsolePrinter;
 import com.example.demo.printer.Printer;
 import com.example.demo.reader.Reader;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CsvPrinter {
     private final Reader reader;
     private final Parser parser;

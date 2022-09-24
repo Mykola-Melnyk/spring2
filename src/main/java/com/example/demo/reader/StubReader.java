@@ -1,9 +1,12 @@
 package com.example.demo.reader;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@Component
 public class StubReader implements Reader {
 
     private final Iterator<String> iterator;

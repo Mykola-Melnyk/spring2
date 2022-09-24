@@ -1,7 +1,9 @@
 package com.example.demo.printer;
 
 import com.example.demo.dto.NumberDto;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConsolePrinter implements Printer {
 
     @Override
